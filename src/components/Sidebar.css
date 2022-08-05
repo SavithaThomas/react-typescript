@@ -1,0 +1,513 @@
+.SideBar {
+    height: 100vh;
+    background: #ffffff;
+    /* position: fixed;  */
+  }
+  .ant-layout-sider,
+  .ant-layout-sider-dark,
+  .SideBar {
+    flex: 0 0 200px !important;
+    max-width: 60px !important;
+    min-width: 35px !important;
+    width: 200px !important;  
+  }
+ 
+  .Logo img {
+    width: 60px;
+    height: 60px;
+  }
+  .midicon {
+    margin-top: 100px;   
+  }
+  .midicon img {
+    width: 35px;
+    height: 35px;
+  }
+  .ant-menu-item,
+  .ant-menu-item-only-child {
+    padding-left: 10px !important;
+  }
+  .ant-menu-item,
+  .ant-menu-item-only-child,
+  .midicon3 {
+    padding-left: 10px !important;
+  }
+  .boticon {
+    width: 30px;
+    height: 30px;
+     margin: 70px 15px;   
+  }
+  .boticon img {
+     margin-top: 15px;  
+  }
+  .ant-input-affix-wrapper {
+    border-radius: 9px;
+  }
+  .ant-layout-header {
+  background: #F4F9FF !important;
+  top: 0;
+  height: 70px !important;
+  padding: 0 20px !important;    
+  }
+  .ant-layout {
+    background: #F4F9FF;
+  }
+
+  .ant-row {
+    /* width: 700px; */
+  }
+  
+  .lefthead {
+    text-align: left;
+    font-weight: 700;
+    font-size: 28px;
+    /* margin-right: 10px !important; */
+    font-family: 'Montserrat', sans-serif;
+  }
+  .ant-btn-primary {
+    /* width: 150px !important; */
+    /* float: right; */
+    margin-top: 20px;
+    /* margin-left: 40px; */
+   
+  }
+  .btn3 {
+    width: 150px !important;
+    /* float: right; */
+    /* margin-top: 20px; */
+    text-align: center;
+  color: white; 
+  background-color: #2B78D4; 
+  border-radius: 8px;
+   /* position: absolute;
+    right: -6.5rem; */
+  }
+  .headright{
+    
+    border-radius: 5px;
+    float: right;
+    /* margin-right: 30px; */
+    /* margin-left: 150px; */
+    border-radius: 5px;
+  }
+  .midhead {
+    margin-top: 5px;
+      margin-left: 125px;  
+      margin-right: 114px;
+     font-family: 'Montserrat', sans-serif;  
+  
+    /* padding-left: 10px; */
+    width: 50px;
+    
+  } 
+  
+  .midhead Input{  
+    border-style: solid;
+    border-color: #002f68;
+  }
+  .ant-layout-content {
+    padding: 0px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .cardcompo{
+    /* display: grid; */
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 0;
+    column-gap: 0ch;
+    margin: 0 2vh 0 4vh;
+    /* margin-left: 70px; */
+  }
+   
+  .card1 {
+    border-radius: 20px;
+    width : 300px;
+    height :160px;
+  }
+  .ant-card-body {
+    padding: 9px !important;
+  }
+  .cardImg {
+    margin: 5px 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #d1dcf4;
+    border-radius: 5px;
+  }
+  
+  .cardTitile {
+    color: #002f68;
+    font-weight: 700;
+    font-style: bold;
+  }
+  .cardPara {
+    font-weight: 400;
+    font-size: 12px;
+    color: #5c83b1;
+  }
+  .cardSpan {
+    font-size: 14px;
+    color: #5c83b1;
+    font-weight: 400;
+  }
+  .gutter-box {
+    padding: 8px 0;
+    background: #00a0e9;
+  }
+  .ant-layout-header {
+    height: 53px !important;
+    padding: 0 21px !important;
+  }
+  
+  .container1 {
+    display:flex;
+    justify-content: space-between;    
+     padding-top: 10px;  
+     padding-left: 40px;
+     padding-right:50px;    
+      align-items: center;  
+  }
+  .inputText, .inputText:focus{
+    color: #002F68;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  
+  .ant-modal-content {
+    /* max-height: 700px; */
+     /* height: 320px; */
+    /* width: 630px; */ 
+  }
+  .popup {
+     /* margin-top: 30px;  */
+  }
+  .text1 {
+    height: 75px;
+    border: none;
+    border-bottom:1px solid  #00a0e9;
+    font: 'Montserrat' ;
+    font-weight: 400; 
+    font-size: 15px; 
+    width: "100%";
+     resize: "none";
+     /* margin-top: 20px; */
+     color: #002F68;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    /* display: inline;
+    overflow: auto; */
+    /* border: none; */
+  }
+  
+  .text {
+    border: none;  
+    border-bottom : 1px solid  #00a0e9;
+    font: 'Montserrat' ;
+     font-weight: 700; 
+    font-size: 18px; 
+   /* margin-top: 20px; */
+  }
+  .avatar-uploader {
+    /* margin-top: 20px; */
+  }
+  .ant-modal-header{
+    border-radius: 24px 24px 0 0;
+    border-bottom: none;
+  }
+  .ant-modal-content{
+    border-radius: 24px !important;
+  }
+  .ant-modal-title{
+    color: #A7B0C3 !important;
+  }
+  .ant-upload.ant-upload-select-picture-card {
+    border-radius: 12px !important;
+    width: 100px !important;
+    height: 110px !important;
+    background-color: #D1DCF4;
+  }
+   /* .ant-btn-default {
+    width:100px;
+     /* background-color: #1890ff;  */
+    /* color:#00a0e9;
+  } */ */
+  
+  .popupfoot {
+    margin-top: 70px ! important;
+    float: right!important;
+    width:100px;
+  }
+  .savebt
+   {
+    float: right;
+    border-radius: 10px;
+    width: 25%;
+    height: 35px !important;
+    margin: 30px 0px 0 200px !important;
+    background-color: #2B78D4;
+     
+  }
+  .cancelbt {
+    border-radius: 10px;
+    width: 25%;
+    height: 35px !important;
+    font-weight: 500;
+    margin: 30px 0px 0 10px !important;
+    border-style: solid;
+    border-color: #2B78D4;
+    border-width: 1px;
+    color: #2B78D4;
+    margin-top: 20px;
+     
+  }
+  
+  .inputTextarea{
+    
+  }
+  .ant-modal {
+    width: 100%;
+    
+  }
+  .modalfield{
+    /* width: 300px !important;  */
+  }
+  .modalfield .ant-modal-close-x {
+    /* margin: 30px 28px; */
+  }
+  .modalfield .cardTitile{
+    /* margin-top: 5px; */
+  }
+  .modalfield .rowfield{
+    /* margin-top: 25px !important; */
+  }
+  .modalfield .ant-input:placeholder-shown{
+    width: 230px;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px){
+    .cardcompo {
+      grid-template-columns: 33.3% 33.3% 33.3%;
+      margin-top: 2vh;
+    }
+    .headright {
+        margin-right: 0vh;
+        border-radius: 5px; 
+        float:right;     
+    }
+    .lefthead {
+      margin-right: 0px;
+    }
+    .midhead {
+      margin-top: 5px;
+      margin-left: 0px !important;  
+      margin-right: 0px !important;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;  
+       width: 50px;      
+    }    
+    .midhead Input{  
+      border-style: solid;
+      border-color: #002f68;
+    }
+    .ant-layout-content {
+      padding: 0px;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+    }
+    
+    }
+    @media screen and (min-width: 1025px) and (max-width: 1440px){
+      .cardcompo {
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        margin-top: 2vh;
+      }
+      .headright {
+          margin-right: 0vh;
+          border-radius: 5px;   
+          float: right;   
+      }
+      .lefthead {
+        margin-right: 0px;
+      }
+      .midhead {
+        margin-top: 5px;
+        margin-left: 0px !important;  
+        margin-right: 10px !important;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;  
+         width: 50px;      
+      }       
+      .midhead Input{  
+        border-style: solid;
+        border-color: #002f68;
+      }
+      .ant-layout-content {
+        padding: 0px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+      }
+      .midicon {
+        /* margin-top: 10vh; */
+      }
+      .boticon {
+        /* margin: 5vh 15px; */
+      }
+      }
+    @media screen  and (max-width: 768px){
+      .cardcompo {
+        grid-template-columns: 50% 50%;
+        margin-top:2vh !important;
+      }
+    .headright {
+      margin-right: 0vh;
+      border-radius: 5px;  
+      float: right;    
+    }
+    .lefthead {
+      margin-right: 20px !important;
+    }
+    .midhead {
+      margin-top: 5px;
+      margin-left: 0px !important;  
+      margin-right: 40px !important;
+      padding-left: 0px!important;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;  
+       width: 6Spx;      
+    } 
+      .ant-input-affix-wrapper {
+        margin-left: 2vh !important;
+      }
+      .ant-btn-primary {
+        float: left;
+    }
+    
+    }
+   
+    @media screen   and (max-width: 700px){
+      .cardcompo {
+        grid-template-columns: auto;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        
+          flex-wrap: wrap;    
+         /* flex-flow: inherit;   */
+        margin-top:15vh !important; 
+      }
+      .ant-layout-header {
+        height: 40px !important;
+        padding: 0 0px !important;       
+      }
+      .headpart {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;  
+       /* margin-left: 38px;   */
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+       }       
+       
+       .cardcompo .ant-row {
+        display: flex;
+        flex-flow: inherit;
+       }   
+       .ant-layout-header,
+       .ant-row-headprt,
+        .ant-col,
+        .ant-col-6 {
+        max-width: unset;
+       }
+       .ant-layout-header,
+       .ant-row-headprt,
+        .ant-col,
+       .ant-col-8 {
+        max-width: unset;
+       }
+      
+       .avatar-uploader {
+        size: small;
+        /* margin-top: 20px; */
+      }
+      .popup {
+        /* margin-left: 0px !important; */
+      }
+       .ant-btn-primary {
+        margin-top: 0px;
+       }
+      .savebt {
+        margin-left: 60px !important;
+      }
+    .headright {      
+      margin-top: 0px !important;
+      margin-left: 0px !important;
+      border-radius: 5px;  
+      padding: 0px;
+      float: left;    
+    }
+    .lefthead {
+      margin-right: 0px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+    }
+  
+    .card1 {       
+      width :200px;
+      height :160px;
+      
+    }
+    .midhead {
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+     margin-right: 0px !important;      
+      margin-left: 0px !important;  
+      padding-left: 0px!important;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;  
+      width: unset;
+               
+    } 
+      .ant-input-affix-wrapper {
+        margin-left: 0vh !important;
+      }
+      .ant-btn-primary {
+        float: left;
+    }
+    .btn5 {
+      margin-left: 0px !important;
+      width:50px !important;
+      bottom: 0px !important;
+    }
+    .btn4 {   
+     font-size: small;
+     width: 80px !important;
+     padding: 0px !important;
+     margin-left: 0px !important;
+     bottom: 0px !important;
+      /* position: relative; 
+     
+      bottom: -0.75rem;  */
+     /* bottom: -11rem; */
+     
+     }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
